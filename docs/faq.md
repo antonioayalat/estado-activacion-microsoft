@@ -32,8 +32,7 @@ registro de la operación para no cobrarte dos veces.
 ## Precios y cobros
 
 - **Revisar tu clave:** gratis.
-- **ID de confirmación:** $0.10 USD, se cobra solo si se genera.
-- **Incluido** si compras tu clave en activar.dev.
+- **ID de confirmación:** $0.10 USD, se cobra aparte, solo si se genera (aunque compres la clave en activar.dev).
 - **Sin recobro:** si ya generamos el CID de tu IID antes, el acierto desde
   caché no se cobra otra vez.
 

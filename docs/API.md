@@ -59,7 +59,7 @@ rate limit por IP que protege el pipeline contra Microsoft.
 | POST | `/v1/topup` | `{order_id}` | Acredita una recarga (Binance/OT). |
 | POST | `/v1/auth/telegram` | — | Intercambio de auth por sesión. |
 | GET | `/v1/shop` | — | Catálogo de la tienda (precios/stock en vivo). |
-| POST | `/v1/shop/buy` | `{product_name, cantidad:1}` | Compra de clave; el CID va incluido. |
+| POST | `/v1/shop/buy` | `{product_name, cantidad:1}` | Compra de clave (el CID que la activa se cobra aparte). |
 | GET | `/v1/shop/dl-pack?product=&lang=es-ES&bits=64` | — | Descarga del instalador (ZIP) del producto. |
 
 ## Ejemplos
