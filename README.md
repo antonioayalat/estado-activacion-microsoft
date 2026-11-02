@@ -29,8 +29,9 @@ soporte recomienda para esos errores.
 
 1. **Obtener el IID** de tu equipo:
    - Windows: `slui 4`
-   - Office: `cscript "%ProgramFiles%\Microsoft Office\Office16\OSPP.VBS" /dinstid`
-     (la ruta cambia según versión y bits)
+   - Office: `cd /d "C:\Program Files\Microsoft Office\root\Office16"` y luego
+     `cscript ospp.vbs /dinstid` (en MSI clásico la carpeta es `Office16` sin
+     `root`; detalle en [docs/guia-office.md](docs/guia-office.md))
 2. **Enviar el IID a Microsoft** y recibir el CID.
 3. **Aplicar el CID** y completar la activación.
 
